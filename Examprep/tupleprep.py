@@ -1,0 +1,6 @@
+a=(1,2,3,4,5,0)
+print(sorted(a))
+print(list(reversed(a)))
+print(all(a))
+print(any(a))
+print(bool(a))

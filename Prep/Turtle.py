@@ -1,0 +1,11 @@
+import turtle
+turtle.bgcolor("black")
+turtle.color("red")
+turtle.begin_fill()
+turtle.left(50) 
+turtle.forward(100)
+turtle.circle(50,180)
+turtle.right(90)
+turtle.circle(50,180)
+turtle.forward(100)
+turtle.end_fill()
