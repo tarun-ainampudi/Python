@@ -8,11 +8,11 @@ for i in range(100):
 file=open(name+".txt","r")
 lines=file.readlines()
 file.close()
-f=open(name+"-available.txt","a+")
 for i in lines:
     username=i
     url = "https://www.instagram.com/"+username
     response = requests.get(url)
     if "<title>Instagram</title>" in str(response.content) and username!="instagram":
-        f.write(username)  
-f.close()
+           f=open(name+"-available.txt","a+")
+           f.write(username)
+           f.close()
