@@ -1,5 +1,5 @@
 import requests
-name="tarunn."
+name="abhishek"
 for i in range(100):
     j=f"{i:02}"
     username=name+j
