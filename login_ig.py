@@ -1,7 +1,8 @@
 import requests
+import re
 
 # Your Instagram session ID (obtained from the browser)
-SESSION_ID = 'sessionid'
+SESSION_ID = '27042317315%3AIrSzAymaJ7LAwu%3A25%3AAYf6bvoH-6vyEab7PxWA9FuRZC2joS4nVcgqiD8alw'
 
 # Headers to mimic a legitimate browser request
 headers = {
@@ -25,9 +26,23 @@ profile_response = session.get(profile_url)
 
 if profile_response.ok:
     print("Successfully logged in using session ID")
-    # You can now perform further requests using the session object
-    # For example, get the home page
-    home_response = session.get(INSTAGRAM_URL)
-    print(home_response.text)
 else:
     print("Failed to log in using session ID")
+url = "https://www.instagram.com/"
+string=session.get(url).text
+
+# Define the regex pattern to extract the username
+pattern = r'"username":"([^"]+)"'
+
+# Use re.search() to find the match
+match = re.search(pattern, string)
+
+if match:
+    username = match.group(1)
+    print("Username:", username)
+else:
+    print("Username not found")
+
+url = f"https://www.instagram.com/{username}/followers/"
+string=session.get(url).text
+print(string)
