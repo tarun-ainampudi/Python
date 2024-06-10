@@ -1,5 +1,7 @@
 import requests
 import re
+from ParameterFinding import scanparams
+
 
 # Your Instagram session ID (obtained from the browser)
 SESSION_ID = '27042317315%3AIrSzAymaJ7LAwu%3A25%3AAYf6bvoH-6vyEab7PxWA9FuRZC2joS4nVcgqiD8alw'
@@ -45,4 +47,5 @@ else:
 
 url = f"https://www.instagram.com/{username}/followers/"
 string=session.get(url).text
-print(string)
+
+scanparams.parameters_text(string)
