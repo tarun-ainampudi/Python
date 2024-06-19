@@ -1,7 +1,6 @@
 import requests
-import scanparams
+from ParameterFinding import scanparams
 
-url = "https://www.instagram.com/virat.kohli/"
+url = "https://vtop.vitap.ac.in/vtop"
 response = requests.get(url)   
-
-scanparams.parameters_text(response.text)
+print(response.text)
