@@ -1,0 +1,303 @@
+70003-Prof.Hari Seetha
+70004-Prof.Srinivas S
+70005-Prof.Madhusudhana Rao N
+70006-Prof.Satyanaryana Badeti
+70007-Prof.John Pradeep  Darsy
+70009-Prof.Pankaj Balakrishna Tambe
+70011-Prof.Kalyan Chakravarthi  Maddikera
+70012-Prof.Khadheer Pasha SK
+70014-Prof.Jagadish Chandra Mudiganti
+70015-Prof.Sudhakar Matle
+70016-Prof.Dilip Kumar  Mohanty
+70020-Prof.P.S.Rama Sreekanth
+70022-Prof.Phani Kumar Meduri
+70023-Prof.SOUBHAGYA SANKAR BARPANDA
+70027-Prof.Nalluri Purnachand 
+70029-PROF.AJITH JUBILSON E
+70030-Prof.Santunu Mandal
+70031-Prof.Roopas Kiran  Sirugudu
+70032-Prof.Hussain Syed
+70033-Prof.J.Sudagar
+70034-Prof.Deepasikha Mishra
+70041-Prof.Venkatarajam M
+70049-Prof.Y V Pavan Kumar
+70051-Prof.Saroj Kumar Panigrahy
+70053-Prof.Ravindra Dhuli
+70054-Prof.Asish Kumar Dalai
+70055-Prof.Umakanta Nanda
+70058-Prof.Debajit Goswami
+70059-Prof.Ch Deepak
+70060-Prof.Anoop Kumar Mishra
+70061-Prof.Sameeulla Khan Md
+70063-Prof.Arun Kumar Sinha
+70064-Prof.Manoj Kumar Mishra
+70066-Prof.Ravi Sankar Barpanda
+70069-Prof.Ambuj Sharma
+70071-Prof.Hari Kishan Kondaveeti
+70077-Prof.Jayendra Kumar
+70078-Prof.Sudha Ellison Mathe
+70079-Prof.Nandha Kumar R
+70081-Prof.Venkata Rajasekhar Nuthakki
+70082-Prof.Manoj Kumar Gupta
+70084-Prof.Sibi Chakkaravarthy S
+70087-Prof.S.Sudhakar Ilango
+70089-Prof.Manmadha Rao Banki
+70090-Prof.Sunny Dayal Vanambathina
+70092-Prof.Manikanta Ravindra Kumar Vakkalagadda
+70097-Prof.Komandla Mahipal Reddy
+70098-Prof.Vemula Ramakrishna Reddy
+70103-Prof.Aravapalli Rama Satish
+70104-Prof.Devarakonda Nagaraju
+70105-Prof.Samineni Peddakrishna
+70106-Prof.Paramasivam R
+70107-Prof.Gopikrishnan S
+70110-Prof.Jonnadula Harikiran
+70112-Prof.Lakshmi Sowjanya Pali
+70116-Prof.Sinuvasan R
+70118-Prof.Shalini Thakur
+70119-Prof.Selvakumar Karuthapandi
+70122-Prof.Sumathi D
+70123-Prof.Prabha Selvaraj
+70125-Prof.Sandipan Maiti
+70127-Prof.Tufan Ghosh
+70128-Prof.Neha Gupta
+70130-Prof.Nandam Ashok
+70134-Prof.Sunkesula Moulana Abdul Kalam Azad
+70135-Prof.Sunil Kumar Singh
+70137-Prof.Rajesh Chalasani
+70139-Prof.Manas Kumar Pal
+70140-Prof.Ganesh Reddy Karri
+70145-Prof.Lisna PC
+70151-Prof.Kumar Debasis
+70153-Prof.Chandan Kumar Thakur
+70155-Prof.Chandan Kumar Pandey
+70156-Prof.Anil Negi
+70159-Prof.Sabeel M Basheer
+70161-Prof.Rohit Lorenzo
+70163-Prof.Bappadittya Roy
+70164-Prof.Agam Das Goswami
+70167-Prof.Somya Ranjan Sahoo
+70176-Prof.Soumyakanta Prusty
+70178-Prof.Lakhan Dev Sharma
+70179-Prof.Rajeev Sharma
+70180-Prof.Komanapalli Gurumurthy
+70182-Prof.Suseela Vappangi
+70183-Prof.Subhasish Mahapatra
+70186-Prof.Peeyush Singh
+70191-Prof.Pratik Premadarshi Ray
+70192-Prof.Yada NanduKumar
+70193-Prof.Khairnar Vikas Vishnu
+70196-Prof.Chandu D S
+70197-Prof.Prashanth Maroju
+70198-Prof.Manisha Maity
+70202-Prof.Vikash Kumar Singh
+70211-Prof.Nadiminti Nagamani
+70217-Prof.Sanket Mishra
+70246-RAMA DEVI KALLURI
+70277-Prof.Lalitha Kumari Pappala
+70278-Prof.Koteswararao Chitipireddi
+70279-Prof.Karthika Natarajan
+70280-Prof.Sheela Jayachandran
+70281-Prof.Udit Narayana Kar 
+70282-Prof.P.Kuppusamy
+70284-Prof.V.Raja
+70285-Prof.Aswathy R K
+70290-Prof.Divya Meena Sundaram
+70291-Prof.Rohit Kumar Das
+70293-Prof.Ranjan Kumar
+70305-Prof.Sukanta Nayak
+70306-Prof.Reeja S R
+70307-Prof.G.Muneeswari
+70308-Prof.Dasari Venkata Lakshmi
+70310-Prof.Afzal Hussain Shahid
+70351-Prof.Gauranga Mandal
+70357-Prof.Davala Ravi Kumar
+70359-Prof.Nagarjuna Neella
+70362-Prof.Prabhakaran Thandapani
+70365-Prof.Kingshuk Sarkar
+70369-Prof.Arindam Dey
+70371-Prof.Bolem Sai Chandana
+70372-Prof.Ritambhara Sharma
+70373-Prof.Debakanta Tripathy
+70381-Prof.Dripta De Joarder
+70382-Prof.C Siva Kumar Reddy
+70383-Prof.Venkata Rajanikanth Machavaram
+70385-Prof.Kotnana Ganesh
+70386-Prof.Suyog Jhavar
+70387-Prof.V V Sreenivasu M
+70388-Prof.Rajesh Duvvuru
+70390-BEEBI NASEEBA
+70391-Prof.Eswaraiah Rayachoti
+70395-Prof.Rajashekar Naraveni
+70396-Prof.Chandan Nayak
+70397-Prof.Nagendra Panini Challa
+70398-Prof.Avadhesh Kumar
+70399-Prof.Siddique Ibrahim Peer Mohamed
+70400-Prof.Senthil K
+70401-Prof.Selva Kumar S
+70403-Prof.M S Jagadeesh
+70405-Prof.Francis P
+70410-Prof.Nallamuthu S
+70412-Prof.Pradosh Ranjan Sahoo
+70414-Prof.Atul Shankar Mani Tripathi
+70415-Prof.S Priyanka
+70418-Prof.Ajay Dagar
+70419-Prof.Kamalesh Kumar
+70420-Prof.Triveni Rajashekhar Mandlimath
+70421-Prof.Pratheep Kumar
+70422-Prof.Sivarama Krishna Pillutla
+70424-Prof.Archana Tiwari
+70425-Prof.Praveen Maurya
+70427-Prof.Sachil Sharma
+70431-Prof.Varunkumar Merugu
+70434-Prof.Muthu Krishnammal
+70435-Prof.Sucharitha Jackson
+70436-Prof.Naga Jagadesh Bommagani
+70438-Prof.Prashanth Ragam
+70439-Prof.Perumandla Karunakar
+70440-Prof.Illa Ramakanth
+70441-Prof.Arun Kumar Yadav
+70442-Prof.Neeraj Kumar Misra
+70443-Prof.Ashish Gupta
+70445-Prof.Virendra Kumar Verma
+70446-Prof.Bharath Reddy Gudibandi 
+70447-Prof.Abdul Kayom MD Khairuzzaman
+70448-Prof. Azees Maria John Francis
+70449-Prof.Piu Kundu
+70450-Prof.Soumen Kundu
+70452-Prof.Ganesh Kotagiri
+70453-Prof.Rajarshi Sarkar
+70454-Prof.Bibhab Bandhu Majumdar
+70455-Prof.Sachi Nandan Mohanty
+70457-Prof.Syed Khasim
+70459-Prof.Chirra Venkata Ramireddy
+70460-Prof.Faizan Danish
+70461-Prof.Saladi Saritha
+70462-Prof.D Khasim Vali
+70466-Prof.Bharathi V C
+70467-Prof.Narendra Nath Dutta
+70469-Prof.Mukkoti Maruthi Venkata Chalapathi
+70471-Prof.Santosh Kumar Sahu
+70473-Prof.Vatambeti Ramesh
+70474-Prof.Shaik Kareemulla
+70475-Prof.Radha Mohan Pattanayak
+70476-Prof.Kolluri Rajesh
+70477-Prof.Anamika Lata
+70478-Prof.Manish Kumar Singh
+70479-Prof.Bommareddy Lokesh
+70482-Prof.Surendra Reddy Vinta
+70485-Prof.Moru Satyanarayana
+70486-Prof.Ameet Chavan
+70487-Prof.Anil Vitthalrao Turukmane
+70488-Prof.Ramkumar D
+70489-Prof.Debanjali Sarkar
+70492-Prof.Chillu Naresh
+70493-Prof.Hemant Kumar Reddy
+70496-Prof.M. Krishnasamy
+70497-Prof.A.Manimaran
+70498-Prof.Rajesh Kandala NVPS
+70501-Prof.Sayyed Faizan Ali
+70503-Prof.Arunkumar  Balakrishnan
+70504-Prof.Nihar Ranjan Pradhan
+70505-Prof.Deepthi Godavarthi
+70506-Prof.Vinod Kiran K
+70508-Prof.Vasili Bala Venkata Nagarjuna
+70509-Prof.Sandhya Sadanandan
+70510-Prof.Sumesh E P
+70512-Prof.Ramesh A
+70513-Prof.Swati Shukla
+70514-Prof.Sambhudutta Nanda
+70515-Prof.Mahesh Miriyala
+70516-Prof.Dasaradha Ramarao
+70517-Prof.Srinivasa Reddy Konda
+70518-Prof.Naga Prasad.P
+70519-Prof.M. Muneeswaran
+70520-Prof.K.Panduranga
+70522-Prof.Tauseef Khan
+70524-Prof.T Ramana
+70525-Prof.V.Sudarshan
+70527-K SRINIVAS
+70528-DR.BOGGARAPU VASAVI
+70531-AASTHA MADONNA SATHE
+70534-DR.SANTANU NANDI
+70539-DR. MISHA 
+70542-DR MUTHU PRABHU S
+70545-DR ANUPRIYA 
+70548-DR LELLA KRANTHI
+70552-SHOBHIT KUMAR SRIVASTAVA
+70554-DR. GOKULNATH M
+70557-ANURAG DE
+70562-DR.MOHIT KUMAR
+70563-DR. G D V SANTHOSH KUMAR
+70564-DR.HANUMANTHARAO BITRA
+70567-KALAPRAVEEN BAGADI
+70568-DR.VISALAKSHI ANNEPU
+70569-DR.VANACHARLA PUJITHA
+70571-PROF.ABHISHEKH
+70572-DR.G.SIVA
+70573-PROF.PRADEEP SINGH
+70574-PROF.KISHOR. E
+70576-DR.SUMA KAMALESH GANDHIMATHI
+70577-Dr Pradip Ramesh Patle
+70584-DR.ALKA MUNJAL
+70585-DR. B.V.GOKULNATH
+70587-DR.PRASHANT PATEL
+70589-DR.SONALI KAUSHIK 
+70590-DR. CHIRANJEEV KUMAR SHAHU
+70591-DR. CHINTAKINDI BALARAM MURTHY
+70592-DR.NARESH SAMMETA
+70593-DR.NIMAI SARKAR
+70595-DR. BUSHRA KHATOON
+70602-DR. D. SANTHADEVI
+70604-DR. RAVI KUMAR BANDARU
+70606-DR. ANSHUL GOPAL
+70607-DR. HELEN SHARMILA A
+70608-DR. DEEPANRAMKUMAR P
+70609-DR.DIBYENDU SEKHAR MANDAL
+70612-DR. RAJASHREE NAIK
+70613-DR. PRAKASH S
+70614-DR. KOTTU DURGA PRASAD
+70615-DR.HABIBA KHATUN
+70618-DR.SAISTA TABSSUM
+70619-VENKATA BHIKSHAPATHI CHENAM
+70624-DR.ANKIT
+70626-DR.SUBHASIS PANDA
+70628-DR. SURESH DARA
+70629-DR.SATYENDRA SINGH CHAUHAN
+70630-DR. MOHAN ALLAM
+70633-DR. JEETHU V. DEVASIA
+70634-GOKUL YENDURI
+70639-SRINIVAS ARUKONDA
+70640-DR.SRINIVASARAO.POKURI
+70641-SUDHEER
+70642-HAJARATHAIAH
+70643-VODDELLI SRILAKSHMI
+70645-CHILUKAMARI RAJESH
+70646-DR. S. KALYANI
+70647-D. KOTHANDARAMAN
+70648-KAILASH CHANDRA MISHRA
+70649-PRIYANKA SINGH
+70650-SHIRIN NARESH PATIL
+70651-PREMKUMAR CHITHALURU
+70652-THATIPARTHY.BHARATH KUMAR
+70653-GIRISH KUMAR MEKALA
+70655-S.BHARATH BHUSHAN
+70656-KOSURI YELLARESWARARAO
+70657-YEPUGANTI KARUNA
+70658-MO FAHEEM
+70659-MOUMITA SAHA
+70660-BANDARU RAMA KRISHNA
+70661-SATPAL SINGH
+70662-RAJAN DEORAO LANJEKAR
+70663-S V GOMATHI
+70665-AMRENDRA SINGH GILL
+70666-SHAZIA SABIR
+70667-POSHAM UPPAMMA
+70671-RIYA
+70672-DWARASALA ADILAKSHMI
+70673-KRITIKA BANSAL
+70674-SANE UMESH REDDY
+70675-SK ASHADUL RAHAMAN
+70678-MANISHA CHOWDHURY
+70680-T RAMA THULASI
+70681-LOGANATHAN PAVITHRA
