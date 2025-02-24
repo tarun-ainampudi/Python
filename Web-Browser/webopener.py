@@ -1,15 +1,17 @@
 import webbrowser
 import time
+import pyautogui
 
 file=open(r"C:\Users\tarun\Desktop\Python\Web-Browser\query.txt","r+")
 queries=file.readlines()[0].replace(" ","+")
 queryList=queries.split(",")
 j=1
 for i  in queryList:
-    url="https://www.bing.com/search?q="+i+"&qs=HS&pq=chat&sc=10-4&cvid=A522D32096FA4E1EA2C4FE7E0C0D660C&FORM=CHRDEF&sp=1&lq=0"
-    if(j==1):
-        j+=1
-    else:
-        time.sleep(7)
+    print(j)
+    url="https://www.bing.com/search?q="+i+"&PC=U316&FORM=CHROMN"
     webbrowser.open(url, autoraise=False)
+    time.sleep(12)
+    j+=1
+    pyautogui.hotkey('ctrl','w')
+    
     

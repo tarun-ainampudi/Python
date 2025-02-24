@@ -27,7 +27,7 @@ for i in c:
 		a.remove(i)
 key=len(list(a+b))
 k=0
-d="f l a m e s".upper().split()
+d=" Friends lovers affectionate marriage enemies soulmates".upper().split()
 while len(d)!=1:
 	length=key-1
 	e=0
