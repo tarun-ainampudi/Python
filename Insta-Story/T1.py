@@ -9,7 +9,7 @@ L.context.session = session_id
 L.context._session.cookies.set('sessionid', session_id)
 
 # Target user whose stories you want to download
-target_user = "taanishq_14"
+target_user = "tarun.fy"
 
 # Get the target user's ID
 profile = instaloader.Profile.from_username(L.context, target_user)

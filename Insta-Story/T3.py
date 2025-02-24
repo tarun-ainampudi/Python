@@ -9,7 +9,7 @@ headers = {
 }
 
 # Instagram user ID (use an API call to get this if needed)
-target_user_id = "taanishq_14"  # Replace with the actual user ID of the target account
+target_user_id = "tarun.fy"  # Replace with the actual user ID of the target account
 
 # Endpoint to retrieve the user's story
 stories_url = f"https://i.instagram.com/api/v1/feed/user/{target_user_id}/reel_media/"

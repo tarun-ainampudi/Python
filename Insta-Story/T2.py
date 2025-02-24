@@ -10,7 +10,7 @@ headers = {
 
 
 
-media_url = "https://www.instagram.com/stories/taanishq_14/3487963776375483021/"
+media_url = "url"
 media_type = "image" if "image_versions2" in media_url else "video"
         
 extension = ".jpg" if media_type == "image" else ".mp4"
