@@ -8,7 +8,7 @@ from PIL import Image
 from io import BytesIO
 
 
-service = Service("C:\\Users\\tarun\\Desktop\\Python\\Web Browser\\chromedriver-win64\\chromedriver.exe")
+service = Service(r"C:\Users\tarun\Desktop\Python\Web-Browser\chromedriver-win64\chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
 url = "https://vtop.vitap.ac.in/vtop/login"
@@ -39,5 +39,3 @@ image.save("captcha.jpg")  # You can change the filename and extension as needed
 print("CAPTCHA image saved successfully!")
 
 input("Press Enter to close the browser...")
-
-driver.quit() 
