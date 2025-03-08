@@ -57,8 +57,8 @@ def set_login_details(driver,uname,pswd,captc):
     
 def login(driver):
     captcha = captcha_load(driver)
-    username="23BCE9290"
-    password="Uyyala@143"
+    username="registration number"
+    password="password"
     set_login_details(driver,username,password,captcha)
     verify_login(driver)
     
