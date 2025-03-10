@@ -1,9 +1,10 @@
 from PIL import Image
 import pytesseract
-#import easyocr
+import easyocr
+import numpy as np
 
 
-def remove_white_from_image(input_path: str, output_path: str, threshold: int = 140) -> None:
+def remove_white_from_image(input_path: str, output_path: str, threshold: int = 60) -> None:
     """
     Removes white (or near-white) pixels from an image by setting their alpha value to 0.
     
@@ -27,11 +28,12 @@ def remove_white_from_image(input_path: str, output_path: str, threshold: int = 
             new_pixels.append(pixel)
 
     img.putdata(new_pixels)
+    img = img.convert("L")#converting to grey scale
     custom_config = r'--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
     text = pytesseract.image_to_string(img,config=custom_config)
     print(f"pytesseract : {text}")    
     #reader = easyocr.Reader(['en']) 
-    #result = reader.readtext("image.png", detail=0)
+    #result = reader.readtext(np.array(img), detail=0)
     #print(f"easyocr : {text}")
     img.save(output_path)
 
