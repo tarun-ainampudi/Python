@@ -50,7 +50,12 @@ def get_captcha_text(captcha_url):
     captcha_processing.download_image_urllib(captcha_url,"captcha.jpeg")
     captcha_processing.remove_white_from_image("captcha.jpeg","output.png")
     captcha_text = captcha_processing.img_to_text("output.png")
-    return captcha_text
+    if len(str(captcha_text))==6:
+        return captcha_text
+    else:
+        captcha_processing.edge_detection("output.png","output.png")
+        captcha_text = captcha_processing.img_to_text("output.png")
+        return captcha_text
     
 def set_login_details(driver,uname,pswd,captc):
     result = driver.execute_script("""
@@ -61,8 +66,8 @@ def set_login_details(driver,uname,pswd,captc):
     
 def login(driver):
     captcha = captcha_load(driver)
-    username=os.getenv("VTOP_USERNAME_A")
-    password=os.getenv("VTOP_PASSWORD_A")
+    username=os.getenv("VTOP_USERNAME")
+    password=os.getenv("VTOP_PASSWORD")
     set_login_details(driver,username,password,captcha)
     verify_login(driver)
     
@@ -289,8 +294,8 @@ def json_to_csv(data, file_path):
         writer = csv.DictWriter(file, fieldnames=column_order)
         writer.writeheader()
         for record in updated_records:
-            writer.writerow({col: record.get(col, "") for col in column_order})  # Enforce order
-
+            writer.writerow({col: record.get(col, "") for col in column_order}) # Enforce order
+    print("Attendance CSV Updated")
 
 driver = webdriver.Chrome(service=Service(r"C:\Users\tarun\Desktop\Python\auto-js\WebAutomation\chromedriver-win64\chromedriver.exe"), options=options)
 driver.get("https://vtop.vitap.ac.in/vtop/open/page")

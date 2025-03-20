@@ -28,7 +28,7 @@ def remove_white_from_image(input_path: str, output_path: str, threshold: int = 
             new_pixels.append(pixel)
 
     img.putdata(new_pixels)
-    img = img.convert("L")#converting to grey scale
+    #img = img.convert("L")#converting to grey scale
     custom_config = r'--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
     text = pytesseract.image_to_string(img,config=custom_config)
     print(f"pytesseract : {text}")    

@@ -66,8 +66,8 @@ def set_login_details(driver,uname,pswd,captc):
     
 def login(driver):
     captcha = captcha_load(driver)
-    username=os.getenv("VTOP_USERNAME_A")
-    password=os.getenv("VTOP_PASSWORD_A")
+    username=os.getenv("VTOP_USERNAME")
+    password=os.getenv("VTOP_PASSWORD")
     set_login_details(driver,username,password,captcha)
     verify_login(driver)
     

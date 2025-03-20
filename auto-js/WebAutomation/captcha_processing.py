@@ -1,6 +1,9 @@
 from PIL import Image
 import pytesseract
 import urllib.request
+import cv2
+from skimage.filters import roberts
+import numpy as np  
 
 def download_image_urllib(url: str, save_path: str) -> None:
     """
@@ -38,6 +41,13 @@ def remove_white_from_image(input_path: str, output_path: str, threshold: int = 
     img = img.convert("L")#converting to grey scale
     img.save(output_path)
     
+def edge_detection(input_path: str, output_path: str):
+    a = cv2.imread(input_path)
+    a = cv2.cvtColor(a, cv2.COLOR_BGR2RGB)
+    f = cv2.cvtColor(a, cv2.COLOR_RGB2GRAY)
+    g = roberts(f)
+    g = (g / g.max() * 255).astype(np.uint8)
+    cv2.imwrite(output_path, g)
 # def img_to_text(input_path: str):
 #     img = Image.open(input_path).convert("L")
 #     custom_config = r'--oem 3 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'

@@ -30,8 +30,8 @@ def gen_list(reg_no : str):
     return sup_list
 
 
-reg_no = "23BCE9846"
-pswd = "Admin@VITAP"
+reg_no = os.getenv("wifi_username")
+pswd = os.getenv("wifi_password")
 reg_list = gen_list(reg_no)
 
 

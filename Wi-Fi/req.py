@@ -1,15 +1,25 @@
 import requests
+
+LOGIN_URL = "http://172.18.10.10:1000/logout?"
+USERNAME = "23BCE9846"
+PASSWORD = "Admin@VITAP"
+
+# Simulate a browser request
 headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    "X-Requested-With": "XMLHttpRequest"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+    "Referer": LOGIN_URL,  # Some portals require this
+    "Origin": "http://172.18.10.10:1000"
 }
 
-# Initialize a session
+# Create a session (useful if login requires cookies)
 session = requests.Session()
-session.headers.update(headers)
+response = session.post(LOGIN_URL, headers=headers)
 
-# URL of the page to scrape
-url = "http://172.18.10.10:1000/logout?"
+# Debugging: Print response
+print(f"Status Code: {response.status_code}")
+print(response.text[:500])  # Print only first 500 chars of response
 
-# Perform a GET request
-response = session.get(url)
+if response.status_code == 200:
+    print("Request successful.")
+else:
+    print("Request failed. Server might be rejecting direct requests.")
