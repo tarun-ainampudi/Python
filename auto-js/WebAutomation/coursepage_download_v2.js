@@ -27,7 +27,7 @@ if (mul_links){for (let i of mul_links) {
 ref_links[refIndex] = links;
 refIndex+=1;
 topic = data[topicIndex] ? data[topicIndex].innerText : null;
-topic = topic.toLowerCase().replaceAll(" ", "_").replaceAll(",", "").replaceAll("-", "");
+topic = topic.toLowerCase().replaceAll(",", "_").replaceAll("-","_").replaceAll(" ", "_").replaceAll("__", "_");
     lecture_topics.topics.push(topic);
 
     topicIndex += 5;

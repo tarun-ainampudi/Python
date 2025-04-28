@@ -52,7 +52,7 @@ password=os.getenv("wifi_password")
 username_list = gen_list(username)
 
 while "login" in str(res(driver)).lower() and "success" not in str(res(driver)).lower():
-    login(driver,username_list[count//64],password)
+    login(driver,username_list[count],password)
     count+=1
     
 #print(str(res(driver)).lower())
