@@ -6,5 +6,5 @@
 - [**Message Bombing**](https://github.com/tarun-ainampudi/Python/blob/main/Prep/MB.py) - Sends multiple messages quickly.  
 - [**Flames**](https://github.com/tarun-ainampudi/Python/blob/main/Prep/Flames.py) - Classic FLAMES game for relationship predictions.  
 - [**VTOP Course Page Downloader**](https://github.com/tarun-ainampudi/Python/blob/main/auto-js/WebAutomation/coursepage_download_v2.js) - Downloads course materials from VTOP with their topic names all at once.  
-- [**VIT-AP Wi-Fi Login Using http**](https://github.com/tarun-ainampudi/Python/blob/main/Wi-Fi/t1.py) - Automated wi-fi login.
+- [**VIT-AP Wi-Fi Login Using http**](https://github.com/tarun-ainampudi/Python/blob/main/Wi-Fi/t2.py) - Automated wi-fi login.
 - [**VIT-AP Wi-Fi Login Overlimit bypass**](auto-js/wifi-login.py) - Automated wi-fi login.
