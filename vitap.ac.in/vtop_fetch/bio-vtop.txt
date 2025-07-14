@@ -1,0 +1,16 @@
+var dataParameter = csrfName + "=" + csrfValue+'&fromDate=' + "13/05/2025" + '&authorizedID='+ document.getElementById("authorizedIDX").value;$.blockUI();
+
+								$.ajax({
+									url : "getStudBioHistory",
+									type : "POST",
+									data : dataParameter,
+									success : function(response) {
+										$("#page-wrapper").html(response);
+										$.unblockUI();
+
+									},
+									error : function(jqXHR, textStatus,
+											errorMessage) {
+										$.unblockUI();}
+
+								});

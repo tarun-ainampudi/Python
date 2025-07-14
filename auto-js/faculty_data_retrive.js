@@ -1,7 +1,23 @@
-doc = document.getElementsByClassName("table");
-tab1 = doc[1].getElementsByTagName("tr");
 authorizedID = $('#authorizedIDX').val();
 csrf = $('input[name="_csrf"]').val();
+var data1 = "_csrf=" + csrf + "&authorizedID=" + authorizedID +"&x="+ new Date().toUTCString() +"&empId=";
+var fdata = ""
+$.ajax({
+        type: 'POST',
+        url: 'hrms/EmployeeSearchForStudent',
+        data: data1,
+        async: false,  // Asynchronous calls are generally preferred. Use async: true if possible.
+        success: function(res) {
+ fdata= new DOMParser().parseFromString(res, 'text/html');
+        },
+        error: function(xhr, status, error) {
+            console.error("AJAX request failed:", error);
+        }
+    });
+
+
+tab1 = fdata.getElementsByTagName("tr");
+
 len = tab1.length;
 const facultyData = [];
 
@@ -13,7 +29,7 @@ for (let i = 1; i < len; i++) {
     const button = cells[3].querySelector("button");
     const employeeId = button ? button.id : null;
 
-    var data = "_csrf=" + csrf + "&authorizedID=" + authorizedID + "&empId=" + employeeId;
+    var data = "_csrf=" + csrf + "&authorizedID=" + authorizedID+"&x="+ new Date().toUTCString() + "&empId=" + employeeId;
 
     $.ajax({
         type: 'POST',
@@ -45,5 +61,8 @@ if (emailId){}else{emailId="Not Updated in VTOP";}
         }
     });
 }
+
+if (facultyData.length === len-1){console.log("Data Found Completely, Length : " + facultyData.length);}else{console.log("Might be some data is missing");}
+
 
 console.log(facultyData);

@@ -1,0 +1,86 @@
+payload : 
+
+ClassID
+GEN/AP2025262001098,,GEN/AP2025262001099
+courseId
+AM_CSE2009_00110
+courseType
+ETP
+courseCode
+CSE2009
+courseOption
+RGR
+clashSlot
+C1/TCC1/L14/L27/L19,
+pageSize
+10
+page
+1
+subCourseOption
+subCourseType
+subCourseDate
+searchType
+0
+searchVal
+NONE
+clArr
+ETH,EPJ
+epjSlotFlag
+2
+crCourseStatus
+2
+crCourseId
+crCourseCode
+crCourseType
+crSubCourseOption
+[object HTMLInputElement]
+crSubCourseType
+[object HTMLInputElement]
+crSubCourseDate
+[object HTMLInputElement]
+null
+null
+
+
+payload 2 :
+
+ClassID
+GEN/AP2025262001004,GEN/AP2025262001060,
+courseId
+AM_CSE2008_00120
+courseType
+ETL
+courseCode
+CSE2008
+courseOption
+RGR
+clashSlot
+F1/TFF1/L9/L22/L1,TA2/F2/L51/L52
+pageSize
+10
+page
+1
+subCourseOption
+subCourseType
+subCourseDate
+searchType
+searchVal
+clArr
+ETH,ELA
+epjSlotFlag
+2
+crCourseStatus
+2
+crCourseId
+crCourseCode
+crCourseType
+crSubCourseOption
+[object HTMLInputElement]
+crSubCourseType
+[object HTMLInputElement]
+crSubCourseDate
+[object HTMLInputElement]
+null
+null
+
+

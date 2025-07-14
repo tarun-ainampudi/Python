@@ -1,0 +1,20 @@
+fetch("https://vtop.vitap.ac.in/vtop/examinations/examGradeView/StudentGradeHistory", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en,en-IN;q=0.9,en-US;q=0.8,te;q=0.7",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "sec-ch-ua": "\"Google Chrome\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-requested-with": "XMLHttpRequest"
+  },
+  "referrer": "https://vtop.vitap.ac.in/vtop/content",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "verifyMenu=true&authorizedID=23BCE9846&_csrf=bf78a677-5765-47c9-a5bc-92da63406db8&nocache=@(new Date().getTime())",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});

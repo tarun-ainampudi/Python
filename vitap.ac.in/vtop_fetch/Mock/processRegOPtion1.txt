@@ -1,0 +1,84 @@
+<div class="">
+		
+		<div class="margin-homepage">
+			<div class="container">	
+						
+				<form name="registrationOptionForm" id="registrationOptionForm">
+							
+				<div class="reg-box">
+					<h3 style="border-top-left-radius: 5px; border-top-right-radius: 10px;">Course Registration Option</h3>					
+										
+					<p class="radio-check">
+						<input class="radio-btn" type="radio" 
+							name="registrationOption" 
+							id="registrationOption0" 
+							value="AM_23PECSE_00100" >Programme Elective Basket for B.Tech CSE 2023</input>
+					</p>
+					 
+
+					 
+					<p>
+						
+							<div id="info" style="color:red; text-align:center;"></div>
+						</th:block>
+					</p>					
+					</div>
+					<br><br>
+					<div  style="text-align: center;">					
+						<button type="button"   class="btn-primary w3-btn w3-round-large"
+							onclick="viewRegistrationOption(this);">Proceed</button>
+					</div>
+					
+					
+				
+				</form>
+
+				<br />
+			</div>
+			<br />
+			<br />
+			
+				<style>
+					.radio-check
+					{
+						padding-left:40px;
+						margin: 10px;
+					}
+					.radio-btn
+					{
+						margin:6px 9px 0px 0px;
+					}
+				</style>
+			
+		</div>
+		
+		<script>
+		/*<![CDATA[*/
+									
+			var showFlag = 0;
+			var info = null;
+			
+			if ((info != null) && (info != ""))
+			{
+				swal({
+			    	title: info,
+			    	type : 'success',
+			    	confirmButtonColor: '#3085d6'
+				},
+				
+				function(button) 
+				{			
+				    if (button == true) 
+				    {
+				    	window.setTimeout(function ()
+				    	{
+				    		
+				    	}, 0);		    			    	
+				    }
+				});
+			}
+			
+		/*]]>*/
+		</script>
+		
+	</div>

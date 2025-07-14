@@ -1,0 +1,24 @@
+<div class="form-groups" id="room_category">
+													<label for="semesterSubId" class="col-md-3 control-label"
+														style="text-align: left;">
+														<h5>
+															<b>FLOOR No</b>
+														</h5>
+													</label>
+													<div class="col-md-9 form-group">
+														<SELECT class="form-control" name="floor"
+															id="floor"
+															data-validation-engine="validate[required]"
+															onchange="javascript:display3(this.value);">
+															<option>--SelectFloor--</option>
+															<option value="11">11</option>
+															<option value="12">12</option>
+															<option value="13">13</option>
+															<option value="14">14</option>
+														</SELECT>
+													</div>
+
+													
+
+
+												</div>
