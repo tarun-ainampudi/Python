@@ -4,7 +4,7 @@
 
 //run it console in digital assignment upload page
 
-//you can correct mcode in the download button href link
+//you can check mcode in the download button href link
 
 //mcode will either be the title if it is lab or someother i.e : Experiment-6
 
@@ -73,9 +73,11 @@ $.blockUI({
 
 var authorizedID = document.getElementById("authorizedID").value;
 var now = new Date(last_date);
-params = "authorizedID=" + authorizedID + "&x="
-	+ now.toUTCString() + "&classId=" + classId + "&mode="
-	+ mode + "&" + csrfName + "=" + csrfValue;
+params = "authorizedID=" + authorizedID 
+	// +"&x="+ now.toUTCString() 
+	+ "&classId=" + classId 
+	+"&mode="+ mode
+	+"&" + csrfName + "=" + csrfValue;
 
 $.ajax({
 	url: "examinations/processDigitalAssignmentUpload",

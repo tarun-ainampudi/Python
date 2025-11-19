@@ -1,0 +1,75 @@
+var fd = new FormData();
+fd.append("authorizedID",document.getElementById("authorizedID").value);
+fd.append("BookingId","");
+fd.append("regNo","23BCE9846");
+fd.append("name","AINAMPUDI TARUN MADAV");
+fd.append("applicationNo","2023553608");
+fd.append("gender","MALE");
+fd.append("hostelBlock","MH-5");
+fd.append("roomNo","1104");
+fd.append("outPlace", "null");
+fd.append("purposeOfVisit", "null");
+fd.append("outingDate", "29-Sep-2025");
+fd.append("outTime", "10:30 AM- 4:30PM");
+fd.append("contactNumber", "6301592113");
+fd.append("parentContactNumber","9490318115");
+fd.append(csrfName, csrfValue);
+$.blockUI({
+					message : '<img src="assets/img/482.GIF"> loading... Just a moment...'
+				});
+
+				$.ajax({
+					url : "hostel/saveOutingForm",
+					type : "POST",
+					data : fd,
+					cache : false,
+					processData : false,
+					contentType : false,
+					success : function(response) {
+						$.unblockUI();
+						$("#main-section").html(response);
+						//swal("Weekend Outing Applied Successfully", "", "success");
+					},
+					error : function(jqXHR, textStatus, errorMessage) {
+						//alert("error");
+						//swal("You have already applied for Outing this Weekend", "","error");
+						$.unblockUI();
+					}
+				});
+
+
+
+
+
+
+var fd = new FormData();
+fd.append("authorizedID",document.getElementById("authorizedID").value);
+fd.append("BookingId","W23714865964");
+fd.append("outPlace", "Vijayawada");
+fd.append("purposeOfVisit", "Movie");
+fd.append("outingDate", "29-Sep-2025");
+fd.append("outTime", "10:30 AM- 4:30PM");
+fd.append("contactNumber", "6301592113");
+fd.append(csrfName, csrfValue);
+$.blockUI({
+					message : '<img src="assets/img/482.GIF"> loading... Just a moment...'
+				});
+
+				$.ajax({
+					url : "hostel/saveOutingForm",
+					type : "POST",
+					data : fd,
+					cache : false,
+					processData : false,
+					contentType : false,
+					success : function(response) {
+						$.unblockUI();
+						$("#main-section").html(response);
+						//swal("Weekend Outing Applied Successfully", "", "success");
+					},
+					error : function(jqXHR, textStatus, errorMessage) {
+						//alert("error");
+						//swal("You have already applied for Outing this Weekend", "","error");
+						$.unblockUI();
+					}
+				});

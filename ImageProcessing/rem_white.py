@@ -38,5 +38,7 @@ def remove_white_from_image(input_path: str, output_path: str, threshold: int = 
     img.save(output_path)
 
 # Example usage:
-for i in range(1,6):
-    remove_white_from_image(f"captcha{i}.jpeg",f"output{i}.png")
+# for i in range(1,6):
+#     remove_white_from_image(f"captcha{i}.jpeg",f"output{i}.png")
+
+# remove_white_from_image(r"C:\Users\tarun\Downloads\Signature.jpg","Signature_output.png",200)
