@@ -31,14 +31,14 @@ def compress_image(input_path: str):
             try:
                 with Image.open(img_path) as img:
                     org_width, org_height = img.size
-                    # if org_width > org_height:
-                    #     new_width = 2160
-                    #     new_height = ceil((new_width / org_width) * org_height)
-                    # else:
-                    #     new_height = 2160
-                    #     new_width = ceil((new_height / org_height) * org_width)
-                    new_height = 1754
-                    new_width = 1250   
+                    if org_width > org_height:
+                        new_width = 2160
+                        new_height = ceil((new_width / org_width) * org_height)
+                    else:
+                        new_height = 2160
+                        new_width = ceil((new_height / org_height) * org_width)
+                    # new_height = 1754
+                    # new_width = 1250   
             except Exception as e:
                 print(f"Error processing {img_path}: {e}")
                 continue
@@ -48,5 +48,5 @@ def compress_image(input_path: str):
             print(f"Skipping non-image file: {file}")
             continue
 
-
-compress_image(r"C:\Users\tarun\Downloads\Compressed-DL-DA01")
+path = os.getcwd()
+compress_image(path)

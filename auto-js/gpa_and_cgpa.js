@@ -11,10 +11,14 @@ var courses = [];
 
 for (var i=0 ; i<only_cont.length ; i++){
 
-	course_code = only_cont[i].getElementsByTagName("td")[1].innerText || null;
+	course_code = only_cont[i].getElementsByTagName("td")[1].innerText.trim() || null;
 	credits = parseInt(only_cont[i].getElementsByTagName("td")[4].innerText) || null
 	grade = only_cont[i].getElementsByTagName("td")[5].innerText || null;
 	result_declared = only_cont[i].getElementsByTagName("td")[7].innerText || null;
+    if(only_cont[i].getElementsByTagName("td")[9].innerHTML.trim().includes(course_code)){
+		var temp_div = document.getElementById("detailsView_"+course_code);
+		result_declared =temp_div.querySelectorAll("tr")[1].querySelectorAll("td")[6].innerText.trim();
+	}
 
 	course = {
 	cc : course_code,
@@ -25,7 +29,7 @@ for (var i=0 ; i<only_cont.length ; i++){
 	 courses.push(course);
 }
 
-function gpa(courses_list){
+function cal_gpa(courses_list){
 	var gpa_list =[];
 	var numerator =[];
 	var denominator = [];
@@ -70,5 +74,30 @@ function gpa(courses_list){
 	//console.log("CGPA : "+parseFloat(cgpa.toFixed(2)));
 	str=str+"CGPA : "+parseFloat(cgpa.toFixed(2))+"\n";
     console.log(str);
+	return gpa_list;
 }
-gpa(courses);
+var gps = cal_gpa(courses);
+var new_header = document.createElement("thead");
+new_header.style.backgroundColor = "#626D71";
+new_header.style.border = "none";
+var hrow = document.createElement("tr");
+hrow.style.color = "#fff";
+hrow.style.fontWeight = "bold";
+hrow.style.backgroundColor = "orange";
+var new_body = document.createElement("tbody");
+var brow = document.createElement("tr");
+new_body.style.border = "none";
+brow.style.fontWeight = "bold";
+brow.style.border = "none";
+var hstr = "";
+var bstr = "";
+for(var i = 0; i < gps.length; i++){
+    hstr+=`<td>GPA[SEM ${i+1}]</td>`;
+    bstr+=`<td>${gps[i]}</td>`;
+}
+hrow.innerHTML = hstr;
+brow.innerHTML = bstr;
+new_header.appendChild(hrow);
+new_body.appendChild(brow);
+document.getElementsByClassName("table table-hover table-bordered")[0].appendChild(new_header);
+document.getElementsByClassName("table table-hover table-bordered")[0].appendChild(new_body);
