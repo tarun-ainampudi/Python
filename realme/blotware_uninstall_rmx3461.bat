@@ -1,0 +1,40 @@
+adb shell pm uninstall --user 0 com.glance.internet
+adb shell pm uninstall --user 0 com.heytap.pictorial
+adb shell pm uninstall --user 0 com.opos.cs
+adb shell pm uninstall --user 0 com.coloros.weather2
+adb shell pm uninstall --user 0 com.redteamobile.roaming
+adb shell pm uninstall --user 0 com.google.android.apps.nbu.paisa.user
+adb shell pm uninstall --user 0 com.google.android.apps.googleassistant
+::adb shell pm uninstall --user 0 com.google.android.googlequicksearchbox
+adb shell pm uninstall --user 0 com.google.android.youtube
+adb shell pm uninstall --user 0 com.google.android.apps.nbu.files
+adb shell pm uninstall --user 0 com.google.android.dialer
+adb shell pm uninstall --user 0 com.google.android.contacts
+adb shell pm uninstall --user 0 com.coloros.video
+adb shell pm uninstall --user 0 com.heytap.yoli
+adb shell pm uninstall --user 0 com.heytap.music
+adb shell pm uninstall --user 0 com.finshell.fin
+adb shell pm uninstall --user 0 com.finshell.wallet	
+adb shell pm uninstall --user 0 com.heytap.browser
+adb shell pm uninstall --user 0 com.google.android.apps.messaging
+adb shell pm uninstall --user 0 com.facebook.appmanager
+adb shell pm uninstall --user 0 com.facebook.system
+adb shell pm uninstall --user 0 com.facebook.services
+adb shell pm uninstall --user 0 com.heytap.speechassist
+adb shell pm uninstall --user 0 com.heytap.cloud
+adb shell pm uninstall --user 0 com.coloros.familyguard
+adb shell pm uninstall com.realmecomm.app
+adb shell pm uninstall com.coloros.note
+adb shell pm uninstall com.realmestore.app
+adb shell pm uninstall com.realme.storecn
+adb shell pm uninstall com.google.android.apps.podcasts
+adb shell pm uninstall com.google.android.apps.youtube.music
+adb shell pm uninstall com.google.android.videos
+adb shell pm uninstall com.google.android.apps.magazines
+adb shell pm uninstall com.google.android.apps.tachyon
+adb shell pm uninstall com.google.android.apps.subscriptions.red
+adb shell pm uninstall com.os.docvault
+adb shell pm uninstall com.coloros.backuprestore
+adb shell pm uninstall com.heytap.xgame
+adb shell pm uninstall com.oplus.play
+pause
