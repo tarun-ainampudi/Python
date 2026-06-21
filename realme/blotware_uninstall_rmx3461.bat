@@ -1,4 +1,5 @@
 adb shell pm uninstall --user 0 com.glance.internet
+adb shell pm uninstall --user 0 com.coloros.securepay
 adb shell pm uninstall --user 0 com.heytap.pictorial
 adb shell pm uninstall --user 0 com.opos.cs
 adb shell pm uninstall --user 0 com.coloros.weather2
@@ -37,4 +38,40 @@ adb shell pm uninstall com.os.docvault
 adb shell pm uninstall com.coloros.backuprestore
 adb shell pm uninstall com.heytap.xgame
 adb shell pm uninstall com.oplus.play
+adb shell pm uninstall com.realme.link
+adb shell pm uninstall com.phonepe.app
+adb shell pm uninstall in.amazon.mShop.android.shopping
+adb shell pm uninstall in.mohalla.sharechat
+adb shell pm uninstall com.cardfeed.video_public
+adb shell pm uninstall com.facebook.katana
+adb shell pm uninstall com.snapchat.android
+adb shell pm uninstall com.coloros.onekeylockscreen
+adb shell pm uninstall com.heytap.smarthome
+adb shell pm uninstall com.coloros.shortcuts
+adb shell pm uninstall --user 0 com.oplus.games
+adb shell pm uninstall --user 0 com.android.email
+adb shell pm uninstall com.oplus.videoeditor
+adb shell pm uninstall --user 0 com.coloros.assistantscreen
+adb shell pm uninstall --user 0 com.nearme.instant.platform
+adb shell pm uninstall --user 0 com.heytap.accessory
+adb shell pm uninstall --user 0 com.heytap.htms
+adb shell pm uninstall --user 0 com.heytap.usercenter
+adb shell pm uninstall --user 0 com.coloros.findphone.client2
+adb shell pm uninstall --user 0 com.coloros.findmyphone
+adb shell pm uninstall --user 0 com.oplus.cosa
+adb shell pm uninstall --user 0 com.iflytek.speechsuite
+adb shell pm uninstall --user 0 com.coloros.ocrscanner
+::adb shell pm uninstall --user 0 com.coloros.directui
+adb shell pm uninstall --user 0 com.coloros.colordirectservice
+adb shell pm uninstall com.unionpay.tsmservice
+adb shell pm uninstall cn.wps.moffice.lite
+adb shell pm uninstall com.oplus.melody
+adb shell pm uninstall --user 0 com.oplus.ovoicemanager.wakeup
+::adb shell pm uninstall --user 0 com.coloros.sceneservice
+adb shell pm disable-user --user 0 com.heytap.market
+adb shell pm uninstall -k --user 0 com.oppo.ovoicemanager
+::NEW 16022026
+adb shell pm uninstall -k --user 0 com.heytap.mcs
+adb shell pm uninstall -k --user 0 com.heytap.themestore
+adb shell pm uninstall -k --user 0 com.oplus.aod
 pause

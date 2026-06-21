@@ -3,7 +3,7 @@ from scapy.all import ARP, Ether, srp
 from concurrent.futures import ThreadPoolExecutor
 
 # Define the network range based on IP and Subnet Mask
-network_range = "172.19.128.0/21"
+network_range = "172.20.32.0/20"
 
 # Function to scan a specific IP
 def scan_ip(ip):
@@ -18,13 +18,14 @@ def scan_ip(ip):
     # Parse the result and return available devices
     devices = []
     for sent, received in result:
+        print(sent,received)
         devices.append({'ip': received.psrc, 'mac': received.hwsrc})
     
     return devices
 
 # Function to scan network range with multiple threads
 def scan_network(network_range):
-    ip_list = [f"172.19.{i}.{j}" for i in range(128, 136) for j in range(0, 256)]  # 172.19.128.0/21 range
+    ip_list = [f"172.20.{i}.{j}" for i in range(32, 47) for j in range(0, 256)]  # 172.19.128.0/21 range
 
     # Create a thread pool for scanning
     devices_found = []
